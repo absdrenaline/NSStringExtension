@@ -16,6 +16,9 @@ int main(int argc, const char * argv[]) {
         NSString* myWords = @"Kale Chips";
         NSLog(@"%@",[myWords stringByPigLatinization]);
         
+        NSString* myPhrase = @"Explain what this means!";
+        NSLog(@"%@",[myPhrase stringByPigLatinization]);
+        
     }
     return 0;
 }
